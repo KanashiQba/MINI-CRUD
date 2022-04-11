@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#myCarousel {
+    height: 754px;
+    width: 100vw;
+    background-image: url(../img/tlo.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.naam {
+    font-size: 165px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    color: burlywood;
+}
