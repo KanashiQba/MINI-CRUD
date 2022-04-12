@@ -155,7 +155,7 @@
         
         <h2><?php echo $row['naam']; ?></h2>
         <p><?php echo $row['prijs']; ?></p>
-        <p><a class="btn btn-secondary" href="#">O potrawie &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="view.php">O potrawie &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
     <?php } ?>
