@@ -68,7 +68,7 @@
             <a class="nav-link" href="#">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link disabled">Login</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -144,18 +144,17 @@
       <?php
             $data = $conn->query("SELECT * FROM menukaart")->fetchAll();
 
-
-
             foreach ($data as $row) {
 
               //echo $row ['titel']. " " .$row['artiest']. "<br >/\n";
+              //var_dump($row);
 
             //}
           ?>
-        <svg src="ing/<?php echo $row ['foto'];?>"alt="Card image cap" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2>Heading</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          <img src="img/<?php echo $row['foto'];?>" alt="Card image cap" class="bd-placeholder-img rounded-circle" width="140" height="140" >
+        
+        <h2><?php echo $row['naam']; ?></h2>
+        <p><?php echo $row['prijs']; ?></p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
