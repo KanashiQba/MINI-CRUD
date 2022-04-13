@@ -1,7 +1,7 @@
 <?php
   include('include/connector.php');
-  $data = $conn->query("SELECT * FROM menukaart WHERE ID= ".$_GET{'p'})->fetch();
-  var_dump($_GET{'ID'});
+  $data = $conn->query("SELECT * FROM menukaart WHERE ID=".$_GET['p'])->fetch();
+  
 ?>
 
 <!doctype html>

@@ -2,3 +2,22 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    width: 100vw;
+    height: 900px;
+}
+main{
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.zdjemcia{
+    border-radius: 8px;
+    max-width: 400px;
+    height: 400px;
+}
