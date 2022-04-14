@@ -64,7 +64,7 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="menu.php">Menu</a>
@@ -82,11 +82,11 @@
   </nav>
 </header>
   <main>
-    <div>
+    <div id="foto">
       <img class="zdjemcia" src="img/<?php echo $data['foto']; ?>">
-
-
-
+    </div>
+    <div id="text">
+      <p class="eten"><?php echo $data['tekst']; ?></p>
     </div>
   </main>
 </body>

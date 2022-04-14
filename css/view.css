@@ -16,8 +16,31 @@ main{
     align-items: center;
     justify-content: center;
 }
+#foto{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+#text{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .zdjemcia{
     border-radius: 8px;
     max-width: 400px;
     height: 400px;
+}
+.eten {
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    color: black;
 }

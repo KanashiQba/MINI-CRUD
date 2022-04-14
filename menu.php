@@ -154,7 +154,7 @@
           <img src="img/<?php echo $row['foto'];?>" alt="Card image cap" class="bd-placeholder-img rounded-circle" width="140" height="140" >
         
         <h2><?php echo $row['naam']; ?></h2>
-        <p><?php echo $row['prijs']; ?></p>
+        <p>€<?php echo $row['prijs']; ?></p>
         <p><a class="btn btn-secondary" href="view.php?p=<?php echo $row['ID']; ?>">O potrawie &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
