@@ -1,5 +1,5 @@
 <?php
-include "connection.php"
+include "../include/connector.php"
 if($_SESSION['loggedin'] == true){
     echo "Welcome " . $_SESSION['usename'];
 } else {

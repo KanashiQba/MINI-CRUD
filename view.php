@@ -1,7 +1,7 @@
 <?php
   include('include/connector.php');
   $data = $conn->query("SELECT * FROM menukaart WHERE ID=".$_GET['p'])->fetch();
-  
+  var_dump($data['ID'])
 ?>
 
 <!doctype html>
@@ -88,5 +88,6 @@
     <div id="text">
       <p class="eten"><?php echo $data['tekst']; ?></p>
     </div>
+    
   </main>
 </body>
