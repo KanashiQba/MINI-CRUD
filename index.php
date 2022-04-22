@@ -27,11 +27,10 @@
 <link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
 <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
 <meta name="theme-color" content="#7952b3">
-<link rel="stylesheet" href="css/main.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=IBM+Plex+Sans+Thai+Looped:wght@300;500&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="css/main.css">
 
     <style>
       .bd-placeholder-img {
@@ -56,7 +55,7 @@
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Carousel</a>
+      <a class="navbar-brand" href="loginscreen.php"><?php include "loginscreen.php"?> </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -69,7 +68,7 @@
             <a class="nav-link" href="menu.php">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Login</a>
+           
           </li>
         </ul>
         <form class="d-flex">
@@ -136,7 +135,7 @@
 
 
     <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <script src="js/main.js"></script>
       
   </body>
 </html>

@@ -7,8 +7,10 @@ $stm->bindParam(":password", $_POST['password']);
 $stm->execute();
 $result = $stmt->fetchAll();
 
+$username = $_POST['username']
+
 if(count($result) > 0){
-    $_SESSION["username"] = $_POST['usename']
+    $_SESSION["username"] = ['usename']
     header("location: admin.php");
 } else{
     echo "ussername niet gevonden"
